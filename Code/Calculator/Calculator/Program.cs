@@ -35,7 +35,7 @@ namespace Calculator
                 c = a * b;
                 Console.WriteLine("Ket qua cua: {0} x {1} = {2}", a, b, c);
             }
-            else if (Phep_tinh == "chia" && b == 0)
+            else if (Phep_tinh == "chia")
             {
 
                 c = (double)a / b;
