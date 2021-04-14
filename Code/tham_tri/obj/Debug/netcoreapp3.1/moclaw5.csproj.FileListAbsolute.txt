@@ -1,0 +1,12 @@
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.csprojAssemblyReference.cache
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.AssemblyInfoInputs.cache
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.AssemblyInfo.cs
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.csproj.CoreCompileInputs.cache
+/Users/morclaw/Projects/moclaw5/moclaw5/bin/Debug/netcoreapp3.1/moclaw5.deps.json
+/Users/morclaw/Projects/moclaw5/moclaw5/bin/Debug/netcoreapp3.1/moclaw5.runtimeconfig.json
+/Users/morclaw/Projects/moclaw5/moclaw5/bin/Debug/netcoreapp3.1/moclaw5.runtimeconfig.dev.json
+/Users/morclaw/Projects/moclaw5/moclaw5/bin/Debug/netcoreapp3.1/moclaw5.dll
+/Users/morclaw/Projects/moclaw5/moclaw5/bin/Debug/netcoreapp3.1/moclaw5.pdb
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.dll
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.pdb
+/Users/morclaw/Projects/moclaw5/moclaw5/obj/Debug/netcoreapp3.1/moclaw5.genruntimeconfig.cache
