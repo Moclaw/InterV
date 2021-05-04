@@ -1,4 +1,4 @@
 # InterV
 
-Test C# cơ bản
+Lập trình hướng đối tượng C#
 
