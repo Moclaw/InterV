@@ -185,11 +185,6 @@ namespace OOP
                     }
                 }
             }
-        public int Bien2()
-        {
-            return Total2;
         }
-        }
-      
     }
     
