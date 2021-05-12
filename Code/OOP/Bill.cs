@@ -2,17 +2,13 @@
 
 namespace OOP
 {
-    class Bills // lớp cơ sở của Bill
-    {
-        public string ID { get; set; } //tính đóng gói
-        public int Day { get; set; }
-        public int Mounth { get; set; }
-        public int Year { get; set; }
-    }
 
-
-    class Bill : Bills // tính kế thừa
+    class Bill  
     {
+        private string ID { get; set; } //tính đóng gói
+        private int Day { get; set; }
+        private int Mounth { get; set; }
+        private int Year { get; set; }
         public  void InputBill()
         {
             Console.Write("Ma hoa don: ");

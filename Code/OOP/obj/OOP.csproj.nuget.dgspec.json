@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/morclaw/Desktop/OOP/OOP/OOP.csproj": {}
+    "/Users/morclaw/Documents/GitHub/InterV/Code/OOP/OOP.csproj": {}
   },
   "projects": {
-    "/Users/morclaw/Desktop/OOP/OOP/OOP.csproj": {
+    "/Users/morclaw/Documents/GitHub/InterV/Code/OOP/OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/morclaw/Desktop/OOP/OOP/OOP.csproj",
+        "projectUniqueName": "/Users/morclaw/Documents/GitHub/InterV/Code/OOP/OOP.csproj",
         "projectName": "OOP",
-        "projectPath": "/Users/morclaw/Desktop/OOP/OOP/OOP.csproj",
+        "projectPath": "/Users/morclaw/Documents/GitHub/InterV/Code/OOP/OOP.csproj",
         "packagesPath": "/Users/morclaw/.nuget/packages/",
-        "outputPath": "/Users/morclaw/Desktop/OOP/OOP/obj/",
+        "outputPath": "/Users/morclaw/Documents/GitHub/InterV/Code/OOP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/morclaw/.config/NuGet/NuGet.Config"

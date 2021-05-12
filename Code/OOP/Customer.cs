@@ -1,12 +1,12 @@
 ﻿using System;
 namespace OOP
 {
-    abstract class Customers
+    abstract class Customers // tinh trừu tượng
     {
-        public string IdCustomer { get; set; }
-        public string Address { get; set; }
-        public string Name { get; set; }
-        public double Phone { get; set; }
+        protected string IdCustomer { get; set; }
+        protected string Address { get; set; }
+        protected string Name { get; set; }
+        protected double Phone { get; set; }
         public abstract void InputInfor();
         public abstract string OutpuntInfortoString();
     }
