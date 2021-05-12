@@ -9,14 +9,18 @@ namespace OOP
         public void InputDetailBilll()
         {
             Console.Write("Chon loai thiet bi (1 - may quat,  2 - may lanh): ");
-            Devices = Console.ReadLine();
+            devices = Console.ReadLine();
+
             Console.Write("Nhap ma: ");
-            IdDevices = Console.ReadLine();
+            idDevices = Console.ReadLine();
+
             Console.Write("Ten san pham: ");
-            NameDevices = Console.ReadLine();
+            nameDevices = Console.ReadLine();
+
             Console.Write("Noi san xuat: ");
-            Company = Console.ReadLine();
-            if (Devices == "1")
+            company = Console.ReadLine();
+
+            if (devices == "1")
             {
                 way.IntputWay();
 
@@ -26,35 +30,35 @@ namespace OOP
                 airMachine.InputAir();
 
             }
-            TotalBill = way.Bien() + airMachine.Bien2();
+            totalBill = way.Bien() + airMachine.Bien2();
         }
 
         public string OutputDetailBill()
         {
 
-            if (Devices == "1")
+            if (devices == "1")
             {
-                return $"May quat: {IdDevices}\t" +
-                         $"{OptionDevices}\t" +
-                         $"{NameDevices}\t" +
-                         $"{Total1}\t" +
-                         $"{CoolMachine}\t" +
-                         $"{DetailsCool1}\t" +
-                         $"{DetailsCool2}\t" +
-                         $"{Amout}\n\n" +
-                         $"Tong gia: {TotalBill}";
+                return $"May quat: {idDevices}\t" +
+                         $"{optionDevices}\t" +
+                         $"{nameDevices}\t" +
+                         $"{total1}\t" +
+                         $"{coolMachine}\t" +
+                         $"{detailsCool1}\t" +
+                         $"{detailsCool2}\t" +
+                         $"{amout}\n\n" +
+                         $"Tong gia: {totalBill}\n";
             }
             else
             {
-                return $"May lanh: {IdDevices}\t" +
-                        $"{OptionDevices}\t" +
-                        $"{NameDevices}\t" +
-                        $"{Company}\t" +
-                        $"{Total2}\t" +
-                        $"{Electric}\t" +
-                        $"{WaterCapacity}\t" +
-                        $"{Amout}\n\n" +
-                        $"Tong gia: {TotalBill}";
+                return $"May lanh: {idDevices}\t" +
+                        $"{optionDevices}\t" +
+                        $"{nameDevices}\t" +
+                        $"{company}\t" +
+                        $"{total2}\t" +
+                        $"{electric}\t" +
+                        $"{waterCapacity}\t" +
+                        $"{amout}\n\n" +
+                        $"Tong gia: {totalBill}\n";
             }
         }
     }

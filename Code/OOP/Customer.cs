@@ -3,10 +3,10 @@ namespace OOP
 {
     abstract class Customers // tinh trừu tượng
     {
-        protected string IdCustomer { get; set; }
-        protected string Address { get; set; }
-        protected string Name { get; set; }
-        protected double Phone { get; set; }
+        protected string idCustomer { get; set; }
+        protected string address { get; set; }
+        protected string name { get; set; }
+        protected double phone { get; set; }
         public abstract void InputInfor();
         public abstract string OutpuntInfortoString();
     }
@@ -15,18 +15,21 @@ namespace OOP
         public override void InputInfor()
         {
             Console.Write("Ma khach hang: ");
-            IdCustomer = Console.ReadLine();
+            idCustomer = Console.ReadLine();
+
             Console.Write("Ten khach hang: ");
-            Name = Console.ReadLine();
+            name = Console.ReadLine();
+
             Console.Write("Dia chi: ");
-            Address = Console.ReadLine();
+            address = Console.ReadLine();
+
             Console.Write("So dien thoai: ");
-            Phone = double.Parse(Console.ReadLine());
+            phone = double.Parse(Console.ReadLine());
         }
         public override string OutpuntInfortoString() => $"Thong tin khach hang: " +
-            $"{IdCustomer}\t" +
-            $"{Name}\t" +
-            $"{Address}\t" +
-            $"{Phone}\n";
+            $"{idCustomer}\t" +
+            $"{name}\t" +
+            $"{address}\t" +
+            $"{phone}\n";
     }
 }

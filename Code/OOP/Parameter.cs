@@ -8,20 +8,20 @@ namespace OOP
     }
     class Parameter
     {
-        protected internal string IdDevices { get; set; } //tính đóng gói
-        protected internal string Devices { get; set; }
-        protected internal string NameDevices { get; set; }
-        protected internal string Company { get; set; }
-        protected internal string OptionDevices { get; set; }
-        protected internal string CoolMachine { get; set; }
-        protected internal string DetailsCool1 { get; set; }
-        protected internal string DetailsCool2 { get; set; }
-        protected int WaterCapacity { get; set; }
-        protected int Amout { get; set; }
-        protected int Total1 { get; set; }
-        protected int Total2 { get; set; }
-        protected int TotalBill { get; set; }
-        protected int Electric { get; set; }
+        protected internal string idDevices { get; set; } //tính đóng gói
+        protected internal string devices { get; set; }
+        protected internal string nameDevices { get; set; }
+        protected internal string company { get; set; }
+        protected internal int optionDevices { get; set; }
+        protected internal string coolMachine { get; set; }
+        protected internal string detailsCool1 { get; set; }
+        protected internal string detailsCool2 { get; set; }
+        protected int waterCapacity { get; set; }
+        protected int amout { get; set; }
+        protected int total1 { get; set; }
+        protected int total2 { get; set; }
+        protected int totalBill { get; set; }
+        protected int electric { get; set; }
     }
 }
 
