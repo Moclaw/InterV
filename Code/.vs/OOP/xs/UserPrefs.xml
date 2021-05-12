@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{F645F7A4-4761-4E5C-9FEA-668E0EE59684}|Default">
   <MonoDevelop.Ide.ItemProperties.OOP PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOP/Parameter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOP/DetailBill.cs">
     <Files>
       <File FileName="OOP/Parameter.cs" Line="11" Column="74" />
+      <File FileName="OOP/DetailBill.cs" Line="150" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OOP" expanded="True">
             <Node name="OOP" expanded="True">
-              <Node name="Parameter.cs" selected="True" />
+              <Node name="DetailBill.cs" selected="True" />
             </Node>
           </Node>
         </State>
