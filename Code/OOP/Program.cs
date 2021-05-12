@@ -30,7 +30,6 @@ namespace OOP
                 A += b[i].BilltoString();
                 A += a[i].OutpuntInfortoString();
                 A += c[i].OutputDetailBill();
-                Console.WriteLine(A);
             }
             FileStream Mbill = new FileStream(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\danh_sach_hoa_don.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter outputBills = new StreamWriter(Mbill);
