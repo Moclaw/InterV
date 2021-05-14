@@ -1,4 +1,0 @@
-/Users/morclaw/Projects/OOPx5/OOPx5/obj/Debug/netcoreapp3.1/OOPx5.csprojAssemblyReference.cache
-/Users/morclaw/Projects/OOPx5/OOPx5/obj/Debug/netcoreapp3.1/OOPx5.AssemblyInfoInputs.cache
-/Users/morclaw/Projects/OOPx5/OOPx5/obj/Debug/netcoreapp3.1/OOPx5.AssemblyInfo.cs
-/Users/morclaw/Projects/OOPx5/OOPx5/obj/Debug/netcoreapp3.1/OOPx5.csproj.CoreCompileInputs.cache
