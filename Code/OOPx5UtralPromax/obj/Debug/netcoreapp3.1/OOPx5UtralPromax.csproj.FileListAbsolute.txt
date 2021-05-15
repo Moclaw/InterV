@@ -1,0 +1,13 @@
+D:\InV\InterV\Code\OOPx5UtralPromax\bin\Debug\netcoreapp3.1\OOPx5UtralPromax.exe
+D:\InV\InterV\Code\OOPx5UtralPromax\bin\Debug\netcoreapp3.1\OOPx5UtralPromax.deps.json
+D:\InV\InterV\Code\OOPx5UtralPromax\bin\Debug\netcoreapp3.1\OOPx5UtralPromax.runtimeconfig.json
+D:\InV\InterV\Code\OOPx5UtralPromax\bin\Debug\netcoreapp3.1\OOPx5UtralPromax.runtimeconfig.dev.json
+D:\InV\InterV\Code\OOPx5UtralPromax\bin\Debug\netcoreapp3.1\OOPx5UtralPromax.dll
+D:\InV\InterV\Code\OOPx5UtralPromax\bin\Debug\netcoreapp3.1\OOPx5UtralPromax.pdb
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.csprojAssemblyReference.cache
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.AssemblyInfoInputs.cache
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.AssemblyInfo.cs
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.csproj.CoreCompileInputs.cache
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.dll
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.pdb
+D:\InV\InterV\Code\OOPx5UtralPromax\obj\Debug\netcoreapp3.1\OOPx5UtralPromax.genruntimeconfig.cache

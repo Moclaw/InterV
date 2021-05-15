@@ -1,4 +1,5 @@
 ﻿using System;
+using OOPx5UtralPromax.Customer;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,11 +7,11 @@ namespace OOPx5UtralPromax.HeaderBill
 {
     public class SimpleBill
     {
-        private readonly Users.CustomerClass infor;
         private string id { get; set; } //tính đóng gói
         private int day { get; set; }
         private int mounth { get; set; }
         private int year { get; set; }
+        private CustomerClass customer;
         public void InputBill()
         {
             Console.Write("Ma hoa don: ");
@@ -36,12 +37,12 @@ namespace OOPx5UtralPromax.HeaderBill
             $"{id}\t" +
             $"{day,2}/" +
             $"{mounth,2}/" +
-            $"{year,4}\n" +     
-           $"Thong tin khach hang: " +
-           $"{infor.IdCustomer}\t" +
-           $"{infor.Name}\t" +
-           $"{infor.Address}\t" +
-           $"{infor.Phone}\n";
+            $"{year,4}\n";
+           
         }
+        /*public void inra()
+        {
+            Console.WriteLine(OutputBill());
+        }*/
     }
 }

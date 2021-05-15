@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOPx5UtralPromax.Users
+namespace OOPx5UtralPromax.Customer
 {
    public class CustomerClass
     {
@@ -43,24 +43,23 @@ namespace OOPx5UtralPromax.Users
 
         public void InputInfor()
         {
-            Console.Write("Ma khach hang: ");
+            Console.Write("\nMa khach hang: ");
             idCustomer = Console.ReadLine();
             Console.Write("Ten khach hang: ");
             name = Console.ReadLine();
             Console.Write("Dia chi: ");
             address = Console.ReadLine();
             Console.Write("So dien thoai: ");
-            try
-            {
-                phone = double.Parse(Console.ReadLine());
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Environment.Exit(0);
-            }
+            phone = double.Parse(Console.ReadLine());
         }
-       
+        public string OutputInfor()
+        {
+            return $"Thong tin khach hang: " +
+           $"{IdCustomer}\t" +
+           $"{Name}\t" +
+           $"{Address}\t" +
+           $"{Phone}\n";
+        }
     }
 }
 
