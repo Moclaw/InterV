@@ -14,11 +14,11 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
             {
                 try
                 {
-                    waterCapacity = Convert.ToInt32(Console.ReadLine());
+                    waterCapacity = int.Parse(Console.ReadLine());
                 }
                 catch (Exception)
                 {
-                    waterCapacity = -1;
+                    Console.Write("Nhap lai: ");
                 }
 
                 if (waterCapacity <= 0)

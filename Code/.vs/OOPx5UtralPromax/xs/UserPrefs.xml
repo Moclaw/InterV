@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{192BCBC8-811E-466C-85BF-393B3A83A36F}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OOPx5UtralPromax" expanded="True">
+            <Node name="OOPx5UtralPromax" expanded="True">
+              <Node name="Customer" expanded="True" />
+              <Node name="DetailBill" expanded="True" />
+              <Node name="Devices" expanded="True">
+                <Node name="OptionAirMachine" expanded="True">
+                  <Node name="SpeciesAirMachine" expanded="True" />
+                </Node>
+                <Node name="OptionFan" expanded="True">
+                  <Node name="SpeciesFan" expanded="True" />
+                </Node>
+                <Node name="DevicesClass.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.OOPx5UtralPromax PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

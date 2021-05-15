@@ -27,7 +27,7 @@ namespace OOPx5UtralPromax
                 Console.WriteLine(e.Message);
                 Environment.Exit(0);
             }
-            SimpleBill = new HeaderBill.SimpleBill[n];
+            SimpleBill = new SimpleBill[n];
             for (i = 0; i < n; i++)
             {
                 SimpleBill[i] = new SimpleBill();
