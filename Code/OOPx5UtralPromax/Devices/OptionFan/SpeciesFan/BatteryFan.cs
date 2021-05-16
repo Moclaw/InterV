@@ -27,6 +27,9 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
                 }
             } while (batteryCapacity <= 0);
             price = batteryCapacity * 500;
+            Console.Write("Số lượng bán ra: ");
+
+            amountSale = (int)double.Parse(Console.ReadLine());
         }
         public override string OutputDetailBill()
         {

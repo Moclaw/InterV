@@ -1,5 +1,18 @@
 ﻿<Properties StartupConfiguration="{192BCBC8-811E-466C-85BF-393B3A83A36F}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOPx5UtralPromax/Program.cs">
+    <Files>
+      <File FileName="OOPx5UtralPromax/Program.cs" Line="48" Column="113" />
+      <File FileName="OOPx5UtralPromax/Devices/DevicesClass.cs" Line="36" Column="47" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionFan/FanClass.cs" Line="1" Column="1" />
+      <File FileName="OOPx5UtralPromax/Customer/CustomerClass.cs" Line="62" Column="12" />
+      <File FileName="OOPx5UtralPromax/DetailBill/DetailBill.cs" Line="45" Column="8" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/HeaderBill/SimpleBill.cs" Line="36" Column="34" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/SteamFan.cs" Line="27" Column="64" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/StandFan.cs" Line="14" Column="64" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/BatteryFan.cs" Line="32" Column="64" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs" Line="19" Column="64" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine2_Way.cs" Line="25" Column="64" NotebookId="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -11,14 +24,15 @@
                 <Node name="OptionAirMachine" expanded="True">
                   <Node name="SpeciesAirMachine" expanded="True" />
                 </Node>
-                <Node name="OptionFan" expanded="True">
-                  <Node name="SpeciesFan" expanded="True" />
-                </Node>
-                <Node name="DevicesClass.cs" selected="True" />
               </Node>
+              <Node name="HeaderBill" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

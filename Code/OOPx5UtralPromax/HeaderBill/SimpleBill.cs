@@ -11,7 +11,6 @@ namespace OOPx5UtralPromax.HeaderBill
         private int day { get; set; }
         private int mounth { get; set; }
         private int year { get; set; }
-        private CustomerClass customer;
         public void InputBill()
         {
             Console.Write("Ma hoa don: ");
@@ -31,18 +30,21 @@ namespace OOPx5UtralPromax.HeaderBill
                 Environment.Exit(0);
             }
         }
+        private CustomerClass customer;
         public string OutputBill()
         {
             return $"Hoa Don: " +
-            $"{id}\t" +
-            $"{day,2}/" +
-            $"{mounth,2}/" +
-            $"{year,4}\n";
-           
+            $"{this.id}\t" +
+            $"{this.day,2}/" +
+            $"{this.mounth,2}/" +
+            $"{this.year,4}\n"+
+            $"Thong tin khach hang: " +
+           $"{customer.IdCustomer}\t" +
+           $"{customer.Name}\t" +
+           $"{customer.Address}\t" +
+           $"{customer.Phone}\n"; ;
+
         }
-        /*public void inra()
-        {
-            Console.WriteLine(OutputBill());
-        }*/
+
     }
 }

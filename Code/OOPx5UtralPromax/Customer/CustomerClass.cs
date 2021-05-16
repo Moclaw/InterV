@@ -52,14 +52,14 @@ namespace OOPx5UtralPromax.Customer
             Console.Write("So dien thoai: ");
             phone = double.Parse(Console.ReadLine());
         }
-        public string OutputInfor()
-        {
-            return $"Thong tin khach hang: " +
-           $"{IdCustomer}\t" +
-           $"{Name}\t" +
-           $"{Address}\t" +
-           $"{Phone}\n";
-        }
+        //public string OutputInfor()
+        //{
+        //    return $"Thong tin khach hang: " +
+        //   $"{IdCustomer}\t" +
+        //   $"{Name}\t" +
+        //   $"{Address}\t" +
+        //   $"{Phone}\n";
+        //}
     }
 }
 

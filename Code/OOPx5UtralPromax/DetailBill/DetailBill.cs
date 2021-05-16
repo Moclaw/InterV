@@ -1,5 +1,6 @@
 ﻿using OOPx5UtralPromax.Devices.OptionFan.SpeciesFan;
 using OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine;
+using OOPx5UtralPromax.Devices;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,11 +9,10 @@ namespace OOPx5UtralPromax.DetailBills
 {
     public class DetailBill
     {
-        private Devices.DevicesClass devices;
+        private DevicesClass devices;
         private int chooseDevice;
         private int chooseAirMachine;
         private int chooseFan;
-        string dataDevices = "";
         public void InputDetailBill()
         {
             Console.Write("Chọn loại thiết bị điện(1-máy quạt, 2- máy lạnh): ");
@@ -30,7 +30,7 @@ namespace OOPx5UtralPromax.DetailBills
                 DetailBill detailBill = new DetailBill();
                 if (chooseDevice == 1)
                 {
-                 
+
                     detailBill.ChooseDeviceFan();
                     break;
                 }
@@ -39,8 +39,10 @@ namespace OOPx5UtralPromax.DetailBills
                     detailBill.ChooseDeviceAirmachine();
                     break;
                 }
-            } while (chooseDevice <=0);
-         }
+
+            } while (chooseDevice <= 0);
+
+               }
 
 
         public void ChooseDeviceFan()
@@ -54,7 +56,7 @@ namespace OOPx5UtralPromax.DetailBills
             {
                 Console.WriteLine(e.Message);
                 Environment.Exit(0);
-            } 
+            }
             do
             {
                 if (chooseFan == 1)
@@ -69,7 +71,7 @@ namespace OOPx5UtralPromax.DetailBills
                 }
                 else if (chooseFan == 3)
                 {
-                    devices = new BatteryFan(); 
+                    devices = new BatteryFan();
                 }
             } while (chooseFan >= 0);
         }
@@ -98,16 +100,19 @@ namespace OOPx5UtralPromax.DetailBills
                     devices = new AirMachine2_Way();
                     break;
                 }
-             
+
             } while (chooseAirMachine >= 0);
         }
         public double GetTotolBill()
         {
             return devices.AmountSale * devices.Price;
         }
-        public string OutputDataDevices()
+        public string GetData()
         {
-            return devices.OutputDetailBill();
+            string dataThietBi = "";
+            dataThietBi += devices.OutputDetailBill();
+
+            return dataThietBi;
         }
     }
 }

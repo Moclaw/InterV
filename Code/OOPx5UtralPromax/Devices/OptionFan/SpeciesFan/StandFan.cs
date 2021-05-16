@@ -9,6 +9,9 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
         public StandFan()
         {
             price = 500;
+            Console.Write("Số lượng bán ra: ");
+
+            amountSale = (int)double.Parse(Console.ReadLine());
         }
 
         public override string OutputDetailBill()

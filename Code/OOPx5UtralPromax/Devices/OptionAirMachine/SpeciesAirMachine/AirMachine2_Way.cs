@@ -20,6 +20,9 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
                 price = 2500;
             }
             price = 2000;
+            Console.Write("Số lượng bán ra: ");
+
+            amountSale = (int)double.Parse(Console.ReadLine());
         }
         public override void InputDetailBill()
         {

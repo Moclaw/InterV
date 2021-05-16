@@ -20,17 +20,17 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
                 {
                     Console.Write("Nhap lai: ");
                 }
-
-                if (waterCapacity <= 0)
-                {
-                    Console.Write("Nhap lai: ");
-                }
             } while (waterCapacity <= 0);
             price = waterCapacity * 400;
+            Console.Write("Số lượng bán ra: ");
+
+            amountSale = (int)double.Parse(Console.ReadLine());
+
+
         }
         public override string OutputDetailBill()
         {
-            return outPut += $"\tMáy quạt: {idDevices} Loại máy quạt (quạt đứng) {nameDevices} {company} {this.price * amountSale} {amountSale}\n";
+            return $"\tMáy quạt: {idDevices} Loại máy quạt (quạt đứng) {nameDevices} {company} {this.price * amountSale} {amountSale}\n";
 
         }
     }
