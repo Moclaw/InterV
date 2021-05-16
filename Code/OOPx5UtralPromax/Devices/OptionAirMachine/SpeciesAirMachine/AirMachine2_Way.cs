@@ -78,7 +78,7 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
                 odorResistantS = "không có công nghệ khử mùi";
             }
 
-            return outputAir += $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều) " +
+            return $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều) " +
                 $"{nameDevices} {company} {price * amountSale} " +
                 $"{inverterS}" +
                 $"{antimicrobialS} "+

@@ -33,9 +33,9 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
         }
         public override string OutputDetailBill()
         {
-            return outPut += $"\tMáy quạt: {idDevices} " +
+            return $"\tMáy quạt: {idDevices} " +
                 $"Loại máy quạt (quạt đứng) {nameDevices} {company} " +
-                $"{this.price * amountSale} {amountSale}\n";
+                $"{price * amountSale} {amountSale}\n";
 
         }
     }

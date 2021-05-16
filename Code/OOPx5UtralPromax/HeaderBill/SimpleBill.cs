@@ -24,26 +24,22 @@ namespace OOPx5UtralPromax.HeaderBill
                 Console.Write("Nam lap: ");
                 year = int.Parse(Console.ReadLine());
             }
+
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
                 Environment.Exit(0);
             }
         }
-        private CustomerClass customer;
         public string OutputBill()
         {
-            return $"Hoa Don: " +
-            $"{this.id}\t" +
-            $"{this.day,2}/" +
-            $"{this.mounth,2}/" +
-            $"{this.year,4}\n"+
-            $"Thong tin khach hang: " +
-           $"{customer.IdCustomer}\t" +
-           $"{customer.Name}\t" +
-           $"{customer.Address}\t" +
-           $"{customer.Phone}\n"; ;
-
+            string dataHoaDon = "";
+            dataHoaDon += $"Hoa Don: " +
+            $"{id}\t" +
+            $"{day,2}/" +
+            $"{mounth,2}/" +
+            $"{year,4}\n";
+            return dataHoaDon;
         }
 
     }

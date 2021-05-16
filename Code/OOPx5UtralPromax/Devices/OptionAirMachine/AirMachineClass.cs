@@ -11,8 +11,7 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine
         protected string outputAir = "";
         public override void InputDetailBill()
         {
-            Console.Write("Máy có hỗ trợ công nghệ inverter không (0 - không, 1 - có): ");
-            chooseIverter = int.Parse(Console.ReadLine());
+           
             if (chooseIverter == 0)
             {
                 inverter = true;

@@ -32,7 +32,7 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
             {
                 inverterS = "không có hỗ trợ công nghệ inverter";
             }
-            return outputAir += $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều) " +
+            return $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều) " +
                 $"{nameDevices} {company} {price * amountSale} " +
                 $"{inverterS}" +
                 $" {amountSale}\n";

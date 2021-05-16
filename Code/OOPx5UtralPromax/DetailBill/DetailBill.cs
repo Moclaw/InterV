@@ -11,108 +11,86 @@ namespace OOPx5UtralPromax.DetailBills
     {
         private DevicesClass devices;
         private int chooseDevice;
-        private int chooseAirMachine;
-        private int chooseFan;
+
+        public int chooseIverter { get; private set; }
+        public int chooseFan { get; private set; }
+        public int chooseWay { get; private set; }
+
         public void InputDetailBill()
         {
-            Console.Write("Chọn loại thiết bị điện(1-máy quạt, 2- máy lạnh): ");
-            try
-            {
-                chooseDevice = int.Parse(Console.ReadLine());
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                Environment.Exit(0);
-            }
             do
             {
-                DetailBill detailBill = new DetailBill();
-                if (chooseDevice == 1)
+                int chooseDevice = 0;
+                Console.Write("Chọn loại thiết bị điện(1-máy quạt, 2- máy lạnh): ");
+                try
+                {
+                    chooseDevice = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (Exception e)
                 {
 
-                    detailBill.ChooseDeviceFan();
-                    break;
                 }
-                else if (chooseDevice == 2)
+                DetailBill detailBill = new DetailBill();
+
+                switch (chooseDevice)
                 {
-                    detailBill.ChooseDeviceAirmachine();
-                    break;
+                    case 1:
+                        Console.Write("Chọn loại máy quạt(1 - máy quạt đứng, 2 - máy quạt hơi nước, 3 – máy quạt sạc điện): ");
+                        chooseFan = int.Parse(Console.ReadLine());
+
+                        switch (chooseFan)
+                        {
+                            case 1:
+                                devices = new StandFan();
+                                Console.Write("Số lượng bán ra: ");
+                                devices.AmountSale = (int)double.Parse(Console.ReadLine());
+                                devices.OutputDetailBill();
+                                break;
+                            case 2:
+                                devices = new SteamFan();
+                                Console.Write("Số lượng bán ra: ");
+                                devices.AmountSale = (int)double.Parse(Console.ReadLine());
+
+                                devices.OutputDetailBill();
+                                break;
+                            case 3:
+                                devices = new BatteryFan();
+                                Console.Write("Số lượng bán ra: ");
+                                devices.AmountSale = (int)double.Parse(Console.ReadLine());
+
+                                devices.OutputDetailBill();
+                                break;
+                        }
+                        break;
+                    case 2:
+                        Console.Write("Chọn loại máy lạnh (1 -máy lạnh một chiều, 2- máy lạnh hai chiều): ");
+                        chooseWay = int.Parse(Console.ReadLine());
+                        switch (chooseWay)
+                        {
+                            case 1:
+                                devices = new AirMachine1_Way();
+                                devices.OutputDetailBill();
+                                break;
+                            case 2:
+                                devices = new AirMachine2_Way();
+                                devices.OutputDetailBill();
+                                break;
+                        }
+                        break;
                 }
 
             } while (chooseDevice <= 0);
 
-               }
-
-
-        public void ChooseDeviceFan()
-        {
-            Console.Write("Chọn loại máy quạt(1 - máy quạt đứng, 2 - máy quạt hơi nước, 3 – máy quạt sạc điện): ");
-            try
-            {
-                chooseFan = int.Parse(Console.ReadLine());
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Environment.Exit(0);
-            }
-            do
-            {
-                if (chooseFan == 1)
-                {
-                    devices = new StandFan();
-                    break;
-                }
-                else if (chooseFan == 2)
-                {
-                    devices = new SteamFan();
-                    break;
-                }
-                else if (chooseFan == 3)
-                {
-                    devices = new BatteryFan();
-                }
-            } while (chooseFan >= 0);
         }
 
-        public void ChooseDeviceAirmachine()
-        {
-            Console.Write("Chọn loại máy lạnh (1 -máy lạnh một chiều, 2- máy lạnh hai chiều): ");
-            try
-            {
-                chooseAirMachine = int.Parse(Console.ReadLine());
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Environment.Exit(0);
-            }
-            do
-            {
-                if (chooseAirMachine == 1)
-                {
-                    devices = new AirMachine1_Way();
-                    break;
-                }
-                else if (chooseAirMachine == 2)
-                {
-                    devices = new AirMachine2_Way();
-                    break;
-                }
 
-            } while (chooseAirMachine >= 0);
-        }
         public double GetTotolBill()
         {
             return devices.AmountSale * devices.Price;
         }
         public string GetData()
         {
-            string dataThietBi = "";
-            dataThietBi += devices.OutputDetailBill();
-
-            return dataThietBi;
+            return devices.OutputDetailBill();
         }
     }
 }

@@ -1,17 +1,9 @@
 ﻿<Properties StartupConfiguration="{192BCBC8-811E-466C-85BF-393B3A83A36F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOPx5UtralPromax/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs">
     <Files>
-      <File FileName="OOPx5UtralPromax/Program.cs" Line="48" Column="113" />
-      <File FileName="OOPx5UtralPromax/Devices/DevicesClass.cs" Line="36" Column="47" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionFan/FanClass.cs" Line="1" Column="1" />
-      <File FileName="OOPx5UtralPromax/Customer/CustomerClass.cs" Line="62" Column="12" />
-      <File FileName="OOPx5UtralPromax/DetailBill/DetailBill.cs" Line="45" Column="8" NotebookId="1" />
-      <File FileName="OOPx5UtralPromax/HeaderBill/SimpleBill.cs" Line="36" Column="34" NotebookId="1" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/SteamFan.cs" Line="27" Column="64" NotebookId="1" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/StandFan.cs" Line="14" Column="64" NotebookId="1" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/BatteryFan.cs" Line="32" Column="64" NotebookId="1" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs" Line="19" Column="64" NotebookId="1" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine2_Way.cs" Line="25" Column="64" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Program.cs" Line="58" Column="47" />
+      <File FileName="OOPx5UtralPromax/DetailBill/DetailBill.cs" Line="50" Column="92" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs" Line="3" Column="19" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,17 +14,23 @@
               <Node name="DetailBill" expanded="True" />
               <Node name="Devices" expanded="True">
                 <Node name="OptionAirMachine" expanded="True">
-                  <Node name="SpeciesAirMachine" expanded="True" />
+                  <Node name="SpeciesAirMachine" expanded="True">
+                    <Node name="AirMachine1_Way.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="OptionFan" expanded="True">
+                  <Node name="SpeciesFan" expanded="True" />
                 </Node>
               </Node>
               <Node name="HeaderBill" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>devices</Value>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -40,7 +38,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.OOPx5UtralPromax PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/DetailBill/DetailBill.cs" relfile="OOPx5UtralPromax/DetailBill/DetailBill.cs" line="89" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
