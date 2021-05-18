@@ -17,7 +17,7 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
         public override void InputDetailBill()
         {
             base.InputDetailBill();
-            Console.WriteLine("Có sử dụng công nghệ kháng khuẩn không(0 - không, 1 - có): ");
+            Console.Write("Có sử dụng công nghệ kháng khuẩn không(0 - không, 1 - có): ");
             try
             {
                 antimicrobialC = int.Parse(Console.ReadLine());
@@ -49,11 +49,12 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
             return $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều)\n" +
                 $"Tên thiết bị: {nameDevices}\n" +
                 $"Tên công ty sản xuất: {company}\n" +
-                $"Tổng giá: {this.price * amountSale}\n" +
                 $"{(inverter ? "có hỗ trợ công nghệ inverter" : "không hỗ trợ công nghệ inverter")}\n" +
                 $"{ (antimicrobial ? "có công nghệ kháng khuẩn" : "không có công nghệ kháng khuẩn")}\n"+
                 $"{ (odorResistant ? "có công nghệ khử mùi" : "không có công nghệ khử mùi")}\n" +
-                $"Số lượng: {this.AmountSale}\n";
+                $"Số lượng: {this.AmountSale}\n"+
+                $"Tổng giá: {this.price * amountSale}\n" +
+                $"==================================================\n";
         }
     }
 }

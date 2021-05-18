@@ -9,7 +9,7 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
         private int batteryCapacity { get; set; }
         public BatteryFan()
         {
-            Console.Write("Dung tich nuoc: ");
+            Console.Write("Dung lượng điện: ");
             do
             {
                 try
@@ -43,7 +43,8 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
                 $"Tên thiết bị: {nameDevices}\n" +
                 $"Tên công ti sản xuất: {company}\n" +
                 $"Tổng giá: {this.price * amountSale}\n" +
-                $"Số lượng {amountSale}\n";
+                $"Số lượng {amountSale}\n" +
+                $"==================================================\n";
 
         }
     }

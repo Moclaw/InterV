@@ -38,7 +38,8 @@ namespace OOPx5UtralPromax.Devices.OptionFan.SpeciesFan
                 $"Tên thiết bị: {nameDevices}\n" +
                 $"Tên công ti sản xuất: {company}\n" +
                 $"Tổng giá: {this.price * amountSale}\n" +
-                $"Số lượng {amountSale}\n";
+                $"Số lượng {amountSale}\n" +
+                $"==================================================\n";
 
         }
     }

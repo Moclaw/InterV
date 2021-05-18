@@ -24,7 +24,7 @@ namespace OOPx5UtralPromax.DetailBills
                 {
                     chooseDevice = Convert.ToInt32(Console.ReadLine());
                 }
-                catch (FormatException exc)
+                catch (Exception)
                 {
                     chooseDevice = -1;
                 }

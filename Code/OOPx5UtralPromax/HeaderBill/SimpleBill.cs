@@ -33,13 +33,12 @@ namespace OOPx5UtralPromax.HeaderBill
         }
         public string OutputBill()
         {
-            string dataHoaDon = "";
-            dataHoaDon += $"Hoa Don: " +
+
+            return $"Hóa đơn: " +
             $"{id}\t" +
             $"{day,2}/" +
             $"{mounth,2}/" +
             $"{year,4}\n";
-            return dataHoaDon;
         }
 
     }
