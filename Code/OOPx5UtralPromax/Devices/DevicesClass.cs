@@ -28,12 +28,12 @@ namespace OOPx5UtralPromax.Devices
         {
             Console.Write("Nhap ma: ");
             this.idDevices = Console.ReadLine();
-
             Console.Write("Ten san pham: ");
             this.nameDevices = Console.ReadLine();
-
             Console.Write("Noi san xuat: ");
             this.company = Console.ReadLine();
+            Console.Write("Số lượng bán ra: ");
+            this.amountSale = (int)double.Parse(Console.ReadLine());
         }
         public abstract string OutputDetailBill();
     }

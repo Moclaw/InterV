@@ -8,15 +8,16 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
     {
         public AirMachine1_Way()
         {
-            if (inverter)
+            if (inverter == true)
             {
-                price = 1500;
+                price = 1000;
             }
-            price = 1000;
+           else price = 1500;
+           
         }
         public override void InputDetailBill()
         {
-            base.InputDetailBill();
+          
             Console.Write("Có sử dụng công nghệ kháng khuẩn không(0 - không, 1 - có): ");
             try
             {
@@ -33,11 +34,10 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
                     price += 500;
                     odorResistant = true;
                 }
-                Console.Write("Số lượng bán ra: ");
-
-                amountSale = (int)double.Parse(Console.ReadLine());
-
+                base.InputDetailBill();
             }
+
+
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
@@ -52,8 +52,8 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
                 $"{(inverter ? "có hỗ trợ công nghệ inverter" : "không hỗ trợ công nghệ inverter")}\n" +
                 $"{ (antimicrobial ? "có công nghệ kháng khuẩn" : "không có công nghệ kháng khuẩn")}\n"+
                 $"{ (odorResistant ? "có công nghệ khử mùi" : "không có công nghệ khử mùi")}\n" +
-                $"Số lượng: {this.AmountSale}\n"+
-                $"Tổng giá: {this.price * amountSale}\n" +
+                $"Số lượng: {amountSale}\n"+
+                $"Tổng giá: {price * amountSale}\n" +
                 $"==================================================\n";
         }
     }

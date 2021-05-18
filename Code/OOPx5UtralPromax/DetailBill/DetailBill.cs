@@ -54,7 +54,6 @@ namespace OOPx5UtralPromax.DetailBills
                             case 3:
                                 devices = new BatteryFan();
                                 devices.InputDetailBill();
-
                                 devices.OutputDetailBill();
                                 break;
                         }

@@ -7,22 +7,17 @@ namespace OOPx5UtralPromax.HeaderBill
 {
     public class SimpleBill
     {
-        private string id { get; set; } //tính đóng gói
+        private string id { get; set; } 
         private int day { get; set; }
-        private int mounth { get; set; }
-        private int year { get; set; }
+        
         public void InputBill()
         {
             Console.Write("Ma hoa don: ");
             id = Console.ReadLine();
             try
             {
-                Console.Write("Ngay lap: ");
+                Console.Write("Ngày lập(dd/mm/yyyy): ");
                 day = int.Parse(Console.ReadLine());
-                Console.Write("Thang lap: ");
-                mounth = int.Parse(Console.ReadLine());
-                Console.Write("Nam lap: ");
-                year = int.Parse(Console.ReadLine());
             }
 
             catch (Exception e)
@@ -36,9 +31,7 @@ namespace OOPx5UtralPromax.HeaderBill
 
             return $"Hóa đơn: " +
             $"{id}\t" +
-            $"{day,2}/" +
-            $"{mounth,2}/" +
-            $"{year,4}\n";
+            $"{day}\n";
         }
 
     }
