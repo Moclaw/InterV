@@ -16,7 +16,7 @@ namespace OOPx5UtralPromax.HeaderBill
             id = Console.ReadLine();
             try
             {
-                Console.Write("Ngày lập(dd/mm/yyyy): ");
+                Console.Write("Ngày lập (vd: dd/mm/yyyy): ");
                 day = int.Parse(Console.ReadLine());
             }
 
