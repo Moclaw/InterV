@@ -1,0 +1,12 @@
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/bin/Debug/netcoreapp3.1/OOPx5UtralPromax.deps.json
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/bin/Debug/netcoreapp3.1/OOPx5UtralPromax.runtimeconfig.json
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/bin/Debug/netcoreapp3.1/OOPx5UtralPromax.runtimeconfig.dev.json
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/bin/Debug/netcoreapp3.1/OOPx5UtralPromax.dll
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/bin/Debug/netcoreapp3.1/OOPx5UtralPromax.pdb
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.csprojAssemblyReference.cache
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.AssemblyInfoInputs.cache
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.AssemblyInfo.cs
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.csproj.CoreCompileInputs.cache
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.dll
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.pdb
+/Users/morclaw/Documents/GitHub/InterV/Code/OOPx5UtralPromax/obj/Debug/netcoreapp3.1/OOPx5UtralPromax.genruntimeconfig.cache

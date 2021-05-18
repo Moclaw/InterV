@@ -2,8 +2,6 @@
 using OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine;
 using OOPx5UtralPromax.Devices;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OOPx5UtralPromax.DetailBills
 {
@@ -26,12 +24,15 @@ namespace OOPx5UtralPromax.DetailBills
                 {
                     chooseDevice = Convert.ToInt32(Console.ReadLine());
                 }
-                catch (Exception e)
+                catch (FormatException exc)
                 {
-
+                    chooseDevice = -1;
                 }
-                DetailBill detailBill = new DetailBill();
 
+                if (chooseDevice != 2 && chooseDevice != 1)
+                {
+                    Console.Write("Nhap lai: ");
+                }
                 switch (chooseDevice)
                 {
                     case 1:
@@ -42,26 +43,23 @@ namespace OOPx5UtralPromax.DetailBills
                         {
                             case 1:
                                 devices = new StandFan();
-                                Console.Write("Số lượng bán ra: ");
-                                devices.AmountSale = (int)double.Parse(Console.ReadLine());
+                                devices.InputDetailBill();
                                 devices.OutputDetailBill();
                                 break;
                             case 2:
                                 devices = new SteamFan();
-                                Console.Write("Số lượng bán ra: ");
-                                devices.AmountSale = (int)double.Parse(Console.ReadLine());
-
+                                devices.InputDetailBill();
                                 devices.OutputDetailBill();
                                 break;
                             case 3:
                                 devices = new BatteryFan();
-                                Console.Write("Số lượng bán ra: ");
-                                devices.AmountSale = (int)double.Parse(Console.ReadLine());
+                                devices.InputDetailBill();
 
                                 devices.OutputDetailBill();
                                 break;
                         }
                         break;
+                       
                     case 2:
                         Console.Write("Chọn loại máy lạnh (1 -máy lạnh một chiều, 2- máy lạnh hai chiều): ");
                         chooseWay = int.Parse(Console.ReadLine());
@@ -69,17 +67,19 @@ namespace OOPx5UtralPromax.DetailBills
                         {
                             case 1:
                                 devices = new AirMachine1_Way();
-                                devices.OutputDetailBill();
+                                devices.InputDetailBill();
+                                         devices.OutputDetailBill();
                                 break;
                             case 2:
                                 devices = new AirMachine2_Way();
+                                devices.InputDetailBill();
                                 devices.OutputDetailBill();
                                 break;
                         }
                         break;
                 }
 
-            } while (chooseDevice <= 0);
+            } while (chooseDevice < 0);
 
         }
 

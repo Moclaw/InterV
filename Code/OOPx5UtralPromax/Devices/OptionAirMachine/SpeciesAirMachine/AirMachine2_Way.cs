@@ -6,13 +6,8 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
 {
     class AirMachine2_Way : AirMachineClass
     {
-        private string inverterS;
-        private int antimicrobialC;
-        private int odorResistantC;
-        private bool antimicrobial = false;
-        private bool odorResistant = false;
-        private string antimicrobialS;
-        private string odorResistantS;
+       
+       
         public AirMachine2_Way()
         {
             if (inverter)
@@ -53,37 +48,15 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine.SpeciesAirMachine
 
         public override string OutputDetailBill()
         {
-            if (inverter)
-            {
-                inverterS = "có hỗ trợ công nghệ inverter";
-            }
-            else
-            {
-                inverterS = "không có hỗ trợ công nghệ inverter";
-            }
-            if (antimicrobial)
-            {
-                antimicrobialS = "có công nghệ kháng khuẩn";
-            }
-            else
-            {
-                antimicrobialS = "không có công nghệ kháng khuẩn";
-            }
-            if (odorResistant)
-            {
-                odorResistantS = "có công nghệ khử mùi";
-            }
-            else
-            {
-                odorResistantS = "không có công nghệ khử mùi";
-            }
 
-            return $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều) " +
-                $"{nameDevices} {company} {price * amountSale} " +
-                $"{inverterS}" +
-                $"{antimicrobialS} "+
-                $"{odorResistantS} "+
-                $" {amountSale}\n";
+            return $"Máy lạnh: {idDevices} loại máy lạnh (1 chiều)\n" +
+                $"Tên thiết bị: {nameDevices}\n" +
+                $"Tên công ty sản xuất: {company}\n" +
+                $"Tổng giá: {this.price * amountSale}\n" +
+                $"{(inverter ? "có hỗ trợ công nghệ inverter" : "không hỗ trợ công nghệ inverter")}\n" +
+                $"{ (antimicrobial ? "có công nghệ kháng khuẩn" : "không có công nghệ kháng khuẩn")}\n" +
+                $"{ (odorResistant ? "có công nghệ khử mùi" : "không có công nghệ khử mùi")}\n" +
+                $"Số lượng: {amountSale}\n";
         }
     }
 }

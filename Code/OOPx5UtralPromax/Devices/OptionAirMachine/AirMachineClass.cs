@@ -7,7 +7,14 @@ namespace OOPx5UtralPromax.Devices.OptionAirMachine
    abstract class AirMachineClass : DevicesClass
     {
         protected bool inverter = false;
-        private int  chooseIverter;
+        protected int  chooseIverter;
+        protected int antimicrobialC;
+        protected int odorResistantC;
+        protected bool antimicrobial = false;
+        protected bool odorResistant = false;
+        protected string antimicrobialS;
+        protected string odorResistantS;
+        protected string inverterS;
         protected string outputAir = "";
         public override void InputDetailBill()
         {
