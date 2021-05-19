@@ -8,7 +8,7 @@ namespace OOPx5UtralPromax.HeaderBill
     public class SimpleBill
     {
         private string id { get; set; } 
-        private int day { get; set; }
+        private string day { get; set; }
         
         public void InputBill()
         {
@@ -16,8 +16,8 @@ namespace OOPx5UtralPromax.HeaderBill
             id = Console.ReadLine();
             try
             {
-                Console.Write("Ngày lập (vd: dd/mm/yyyy): ");
-                day = int.Parse(Console.ReadLine());
+                Console.Write("Ngày lập (dd/mm/yyyy vd: 01/02/2020): ");
+                day = Console.ReadLine();
             }
 
             catch (Exception e)

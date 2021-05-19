@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{192BCBC8-811E-466C-85BF-393B3A83A36F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOPx5UtralPromax/HeaderBill/SimpleBill.cs">
     <Files>
-      <File FileName="OOPx5UtralPromax/Program.cs" Line="58" Column="47" />
-      <File FileName="OOPx5UtralPromax/DetailBill/DetailBill.cs" Line="37" Column="18" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/StandFan.cs" Line="1" Column="1" />
-      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs" Line="16" Column="13" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Program.cs" Line="58" Column="1" />
+      <File FileName="OOPx5UtralPromax/DetailBill/DetailBill.cs" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionFan/SpeciesFan/StandFan.cs" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine1_Way.cs" Line="16" Column="12" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/AirMachineClass.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/Devices/OptionAirMachine/SpeciesAirMachine/AirMachine2_Way.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="OOPx5UtralPromax/HeaderBill/SimpleBill.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,22 +18,17 @@
               <Node name="DetailBill" expanded="True" />
               <Node name="Devices" expanded="True">
                 <Node name="OptionAirMachine" expanded="True">
-                  <Node name="SpeciesAirMachine" expanded="True">
-                    <Node name="AirMachine1_Way.cs" selected="True" />
-                  </Node>
+                  <Node name="SpeciesAirMachine" expanded="True" />
                 </Node>
                 <Node name="OptionFan" expanded="True">
                   <Node name="SpeciesFan" expanded="True" />
                 </Node>
               </Node>
-              <Node name="HeaderBill" expanded="True" />
+              <Node name="HeaderBill" expanded="True">
+                <Node name="SimpleBill.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>devices</Value>
         </State>
       </Pad>
     </Pads>
