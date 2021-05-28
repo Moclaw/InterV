@@ -11,7 +11,7 @@ namespace Todo.Data
         {
         };
 
-        private readonly string _file = "Data//todo.js";
+        private readonly string _file = "Data\\todo.js";
 
         public List<TodoItem> GetData()
         {
