@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LIgmKLk69U8tfYxpi9AGX469zvpsstv1M5FrO9d8e+ebzExf5VVJdFEOZs+QL903VK43DPDk94dyMR0gMM/GHg==",
+  "success": true,
+  "projectFilePath": "/Users/morclaw/Desktop/InterV/Blazor/Blazor.csproj",
+  "expectedPackageFiles": [
+    "/Users/morclaw/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
