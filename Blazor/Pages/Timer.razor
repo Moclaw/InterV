@@ -1,0 +1,91 @@
+﻿@page "/timer"
+
+<div style="font-size:40px; margin-left:15px;" class="timer">
+    @miCounter : @secCounter
+</div>
+<button class="btn btn-lg btn-success" disabled=@IsTaskRunning @onclick="StartTimer">Start</button>
+<button class="btn btn-lg btn-danger" @onclick="StopTimer">Stop</button>
+<div>
+    <button disabled=@IsTaskRunning style="width: 100px;
+                    height: 50px;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+" @onclick="PlusTimer">
+        Nữa đi anh
+    </button>
+</div>
+<div>
+    <button disabled=@IsTaskRunning style="width: 100px;
+                   height: 50px;
+                   margin-bottom: 1em;" @onclick="MinusTimer">
+        Trả quần em
+    </button>
+</div>
+
+@code{
+    private static System.Timers.Timer secTimer;
+    private int secCounter = 59;
+    private int miCounter = 24;
+    bool IsTaskRunning = false;
+    public void StartTimer()
+    {
+        if (secTimer != null)
+        {
+            secTimer.Dispose();
+        }
+        secTimer = new System.Timers.Timer(1000);
+        secTimer.Elapsed += CountDownTimerSec;
+        secTimer.Enabled = true;
+        secTimer.AutoReset = true;
+        IsTaskRunning = true;
+    }
+    public void StopTimer()
+    {
+        secTimer.Enabled = false;
+        IsTaskRunning = false;
+        secTimer.Stop();
+    }
+    public void CountDownTimerSec(Object source, System.Timers.ElapsedEventArgs e)
+    {
+        if (miCounter > 0)
+        {
+            secCounter -= 1;
+            if (secCounter == 0)
+            {
+                miCounter -= 1;
+                secCounter = 59;
+            }
+        }
+        else if (miCounter == 0 && secCounter > 0)
+        {
+            secCounter -= 1;
+            if (secCounter == 0)
+            {
+                secCounter = 0;
+                secTimer.Stop();
+                secTimer.Enabled = false;
+            }
+        }
+        InvokeAsync(StateHasChanged);
+    }
+    public void PlusTimer()
+    {
+
+        if (miCounter == 0 && secCounter == 0)
+        {
+            miCounter += 4;
+            secCounter = 59;
+        }
+        else
+        {
+            miCounter += 5;
+        }
+    }
+    public void MinusTimer()
+    {
+        miCounter -= 5;
+        if (miCounter < 0)
+        {
+            miCounter = 0;
+        }
+    } }
