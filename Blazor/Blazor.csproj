@@ -6,8 +6,26 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="wwwroot\audio\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\audio\Alarm.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\audio\Alarm.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInPackage>false</IncludeInPackage>
+    </Content>
+    <Content Update="Pages\Timer.razor">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Data\TodoItem.cs">
+      <IncludeInPackage>false</IncludeInPackage>
+    </Compile>
   </ItemGroup>
 </Project>
