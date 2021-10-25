@@ -1,0 +1,16 @@
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\Fibonacci1.exe
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\Fibonacci1.deps.json
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\Fibonacci1.runtimeconfig.json
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\Fibonacci1.runtimeconfig.dev.json
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\Fibonacci1.dll
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\ref\Fibonacci1.dll
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\bin\Debug\net5.0\Fibonacci1.pdb
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.csprojAssemblyReference.cache
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.GeneratedMSBuildEditorConfig.editorconfig
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.AssemblyInfoInputs.cache
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.AssemblyInfo.cs
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.csproj.CoreCompileInputs.cache
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.dll
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\ref\Fibonacci1.dll
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.pdb
+D:\InV\TestC#Nangcao\Fibonacci1\Fibonacci1\obj\Debug\net5.0\Fibonacci1.genruntimeconfig.cache

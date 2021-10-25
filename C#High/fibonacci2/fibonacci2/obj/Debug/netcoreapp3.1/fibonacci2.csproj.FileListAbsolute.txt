@@ -1,0 +1,4 @@
+D:\InV\TestC#Nangcao\fibonacci2\fibonacci2\obj\Debug\netcoreapp3.1\fibonacci2.csprojAssemblyReference.cache
+D:\InV\TestC#Nangcao\fibonacci2\fibonacci2\obj\Debug\netcoreapp3.1\fibonacci2.AssemblyInfoInputs.cache
+D:\InV\TestC#Nangcao\fibonacci2\fibonacci2\obj\Debug\netcoreapp3.1\fibonacci2.AssemblyInfo.cs
+D:\InV\TestC#Nangcao\fibonacci2\fibonacci2\obj\Debug\netcoreapp3.1\fibonacci2.csproj.CoreCompileInputs.cache

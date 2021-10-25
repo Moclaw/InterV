@@ -1,0 +1,13 @@
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.exe
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.deps.json
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.runtimeconfig.json
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.runtimeconfig.dev.json
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.dll
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.pdb
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.csprojAssemblyReference.cache
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.AssemblyInfoInputs.cache
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.AssemblyInfo.cs
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.csproj.CoreCompileInputs.cache
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.dll
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.pdb
+D:\InV\TestC#Nangcao\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.genruntimeconfig.cache
