@@ -1,0 +1,63 @@
+﻿@page "/todolist"
+@using Todo.Data
+@inject TodoItemService Service
+<div class="input-group mb-3">
+    <input @bind="_current" type="text" class="form-control" placeholder="Input Todo" @onkeyup="DoTheThing" />
+    <div class="input-group-append">
+        <button @onclick="Add" class="btn btn-outline-success" type="button">Add</button>
+    </div>
+</div>
+
+<ol class="list-group">
+    @foreach (var item in _data)
+    {
+        <li>
+            <div class="input-group mb-3 @(item.Done ? "border border-success" : "")">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <input type="checkbox" @bind="item.Done" class="custom-checkbox" />
+                    </span>
+                </div>
+                <input type="text" @bind="item.Title" maxlength="255" class="form-control" placeholder="Todo" />
+                <input type="text" @bind="item.Note" maxlength="255" class="form-control" placeholder="Note" />
+                <div class="input-group-append">
+                   <button class="btn btn-outline-danger" type="button" @onclick="@(e=>_data.Remove(item))">Delete</button>
+                </div>
+            </div>
+        </li>
+    }
+</ol>
+
+<button @onclick="Clear" class="btn btn-outline-danger">Remove done</button>
+<button @onclick="ClearAll" class="btn btn-outline-danger">Clear all</button>
+<button @onclick="Save" class="btn btn-outline-primary">Save</button>
+@code{
+    private List<TodoItem> _data;
+    private string _current;
+    private TodoItem _item;
+
+    protected override void OnInitialized()
+    {
+        _data = Service.GetData();
+        _item = _data != null && _data.Count > 0 ? _data[0] : null;
+    }
+    private void Add()
+    {
+        if (!string.IsNullOrWhiteSpace(_current))
+            _data.Add(new TodoItem() { Title = _current });
+    }
+
+    private void Clear() => _data.RemoveAll(i => i.Done);
+
+    private void ClearAll() => _data.Clear();
+
+    private void DoTheThing(KeyboardEventArgs eventArgs)
+    {
+        if (eventArgs.Key == "Enter")        
+        {
+            Add();
+        }
+    }
+
+    private void Save() => Service.SaveChanges();
+}

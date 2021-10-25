@@ -1,4 +1,4 @@
 # InterV
 
-Test C# cơ bản
+Test C# Blazor Cơ bản
 
