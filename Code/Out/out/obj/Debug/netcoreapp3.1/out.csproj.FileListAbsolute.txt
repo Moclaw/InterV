@@ -1,0 +1,13 @@
+D:\InV\Code\TestC#_CoBan\out\out\bin\Debug\netcoreapp3.1\out.exe
+D:\InV\Code\TestC#_CoBan\out\out\bin\Debug\netcoreapp3.1\out.deps.json
+D:\InV\Code\TestC#_CoBan\out\out\bin\Debug\netcoreapp3.1\out.runtimeconfig.json
+D:\InV\Code\TestC#_CoBan\out\out\bin\Debug\netcoreapp3.1\out.runtimeconfig.dev.json
+D:\InV\Code\TestC#_CoBan\out\out\bin\Debug\netcoreapp3.1\out.dll
+D:\InV\Code\TestC#_CoBan\out\out\bin\Debug\netcoreapp3.1\out.pdb
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.csprojAssemblyReference.cache
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.AssemblyInfoInputs.cache
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.AssemblyInfo.cs
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.csproj.CoreCompileInputs.cache
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.dll
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.pdb
+D:\InV\Code\TestC#_CoBan\out\out\obj\Debug\netcoreapp3.1\out.genruntimeconfig.cache
